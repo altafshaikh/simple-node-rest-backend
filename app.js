@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get("/:username", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello World, from express");
 });
 
