@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Where we will keep books
+// Where we will keep users
 var users = { altafshaikh: [], altaf: [] };
 
 app.use(cors());
@@ -21,7 +21,7 @@ app.get("/:username", (req, res) => {
 app.post("/user", (req, res) => {
   const user = req.body;
 
-  // Output the book to the console for debugging
+  // Output the user to the console for debugging
   console.log(user);
   const username = user["userName"];
   users[username] = [user];
