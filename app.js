@@ -36,4 +36,7 @@ app.get("/:username/users", (req, res) => {
 app.listen(port, () =>
   console.log(`Hello world app listening on port ${port}!`)
 );
+
 // heroku apps:rename altaf-node-rest-api --app powerful-eyrie-61812
+//https://scotch.io/tutorials/how-to-deploy-a-node-js-app-to-heroku
+// https://devcenter.heroku.com/articles/deploying-nodejs
