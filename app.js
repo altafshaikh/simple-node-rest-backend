@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Where we will keep users
-var users = { altafshaikh: [], altaf: [] };
+var users = {};
 
 app.use(cors());
 
