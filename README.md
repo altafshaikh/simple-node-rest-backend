@@ -89,7 +89,7 @@ axios
 
 ## Author
 
-* **Altaf Shaikh** - *work by* - [ialtafshaikh](https://github.com/ialtafshaikh)
+* **Altaf Shaikh** - *work by* - [altafshaikh](https://github.com/altafshaikh)
 
 ![altaf shaikh](https://raw.githubusercontent.com/ialtafshaikh/static-files/master/coollogo_com-327551664.png)
 
